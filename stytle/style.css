@@ -1,0 +1,156 @@
+:root{
+    --primary: #5d5f95;
+    --lightprimary: #6769a6;
+}
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html{
+    margin: 0px;
+    padding: opx;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+input, textarea{
+    border: 1px solid #e7e7e7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.divider{
+    height: 2px;
+    background-color: #e7e7e7;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rounded_card{
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    margin-left: 15px;
+    box-shadow: 1px 1px 4px 3px #e7e7e7;
+    cursor: pointer;
+}
+.rounded_card:hover{
+    background-color: #e7e7e7;
+}
+
+.logo_wrapper{
+    border: 1px dashed var(--primary);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    letter-spacing: 2px;
+    background-color: var(--primary);
+    color: white;
+}
+
+.navbar{
+    background: #ccc;
+    padding: 20px;
+}
+.nav_item{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.flex_container{
+    display: flex;
+}
+
+.justifier_navbar{
+    justify-content: space-between;
+}
+
+.profile_image{
+    height: 300px;
+    width: 300px;
+    background: blue;
+    border-radius: 50%;
+    background: url("../image/profile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.primary_button{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--lightprimary);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px #d6c3e6;
+    transition: all 0.2s;
+}
+.footer{
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.primary_button:hover{
+    padding: 18px;
+}
+
+.primary_banner{
+    background-color: var(--primary);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact_picture{
+    background: red;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background: url("../image/ph1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.social-icon a{
+    list-style: none;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    line-height: 48px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #05ff05;
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 0);
+    margin: 10px;
+    color: #fff;
+    opacity: 0.9;
+    transition: all 0.2s;
+}
+.social-icon a:hover{
+    padding: 10px;
+}
+
+.social-icon .Copyright{
+    text-align: center;
+    padding-top: 24px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.h5{
+    margin: 0 auto;
+    text-align: center;
+}
